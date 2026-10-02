@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tours | Adventure Tours</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav" id="nav">
+      <a class="logo" href="index.html">ADVEN<span>TURE</span></a>
+      <nav id="menu">
+        <a href="index.html">Home</a
+        ><a href="tours.html" class="active">Tours</a
+        ><a href="explore.html">Explore</a><a href="about.html">About</a
+        ><a href="contact.html" class="btn">Contact</a>
+      </nav>
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+    <section class="page-hero" style="--bg: url(Pic/Hiking8.jpg)">
+      <h1>Our Tours</h1>
+    </section>
+    <section class="section">
+      <div class="title reveal">
+        <h1>Find your route</h1>
+        <div class="line"></div>
+      </div>
+      <div class="filters reveal">
+        <button class="on" data-f="all">All</button
+        ><button data-f="trek">Treks</button><button data-f="walk">Walks</button
+        ><button data-f="day">Day hikes</button>
+      </div>
+      <div class="grid">
+        <article class="card reveal" data-cat="trek">
+          <div class="img">
+            <img src="Pic/Hiking8.jpg" alt="Everest Camp Trek" /><span
+              class="tag"
+              >Trek</span
+            >
+          </div>
+          <div class="body">
+            <h4>Everest Camp Trek</h4>
+            <p>A guided trek with camps and full support.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+        <article class="card reveal d1" data-cat="walk">
+          <div class="img">
+            <img src="Pic/Hiking4.jpg" alt="Walking Holidays" /><span
+              class="tag"
+              >Walk</span
+            >
+          </div>
+          <div class="body">
+            <h4>Walking Holidays</h4>
+            <p>Easy-paced walks across scenic trails.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+        <article class="card reveal d2" data-cat="day">
+          <div class="img">
+            <img src="Pic/Hiking.jpg" alt="Mountain ridge hike" /><span
+              class="tag"
+              >Day hike</span
+            >
+          </div>
+          <div class="body">
+            <h4>Mountain Ridge Hike</h4>
+            <p>A full day on the ridge with wide views.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+        <article class="card reveal" data-cat="walk">
+          <div class="img">
+            <img src="Pic/Hiking%202.jpg" alt="Forest trail walk" /><span
+              class="tag"
+              >Walk</span
+            >
+          </div>
+          <div class="body">
+            <h4>Forest Trail Walk</h4>
+            <p>Shaded paths, fresh air and birdsong.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+        <article class="card reveal d1" data-cat="day">
+          <div class="img">
+            <img src="Pic/Hiking3.jpg" alt="Alpine day hike" /><span class="tag"
+              >Day hike</span
+            >
+          </div>
+          <div class="body">
+            <h4>Alpine Day Hike</h4>
+            <p>A short climb with a big reward at the top.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+        <article class="card reveal d2" data-cat="trek">
+          <div class="img">
+            <img src="Pic/Hiking7.jpg" alt="Summit challenge" /><span
+              class="tag"
+              >Trek</span
+            >
+          </div>
+          <div class="body">
+            <h4>Summit Challenge</h4>
+            <p>For experienced walkers who want a real test.</p>
+            <a href="contact.html" class="link">Enquire</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="cta">
+      <h1 class="reveal">Not sure which tour fits you?</h1>
+      <a href="contact.html" class="btn ghost">Ask our guides</a>
+    </section>
+    <footer>
+      <div class="fgrid">
+        <div>
+          <a class="logo" href="index.html">ADVEN<span>TURE</span></a>
+          <p style="margin-top: 14px">
+            Guided hikes, treks and walking holidays for people who love the
+            outdoors.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="tours.html">Tours</a><a href="explore.html">Explore</a
+          ><a href="about.html">About</a><a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Fifth Avenue, NY 10160, New York, USA</p>
+          <p>Phone: 0315 9612581</p>
+          <p>Email: shafaatyicca@gmail.com</p>
+        </div>
+      </div>
+      <p class="copy">&copy; Outdoor Adventure. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
